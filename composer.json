@@ -1,0 +1,20 @@
+{
+    "name": "wa/router",
+    "description": "Simple HTTP Router",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Antony",
+            "email": "william@pathadan.com"
+        }
+    ],
+    "require": {
+        "wa/request": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WA\\Router\\": "src/"
+        }
+    }
+}
