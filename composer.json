@@ -1,6 +1,7 @@
 {
     "name": "wa/router",
     "description": "Simple HTTP Router",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +11,7 @@
         }
     ],
     "require": {
-        "wa/request": "dev-master"
+        "wa/request": "1.0.0"
     },
     "autoload": {
         "psr-4": {
